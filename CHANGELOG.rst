@@ -2,8 +2,8 @@
 Changelog for package fetch_driver_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+0.5.1 (2015-06-04)
+------------------
 * Add balancing_mode to charger message. Change mode to charging_mode.
 * Contributors: Derek King, Michael Ferguson
 

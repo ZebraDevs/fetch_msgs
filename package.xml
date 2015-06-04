@@ -1,6 +1,6 @@
 <package>
   <name>fetch_driver_msgs</name>
-  <version>0.5.0</version>
+  <version>0.5.1</version>
   <description>
     Messages for the fetch_drivers package
   </description>
