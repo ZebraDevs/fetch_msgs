@@ -1,7 +1,8 @@
 uint8 state
 uint8 error
-uint8 mode
+uint8 charging_mode
 uint8 limit_cause
+uint8 balancing_mode
 
 float32 battery_voltage
 float32 battery_half_voltage
