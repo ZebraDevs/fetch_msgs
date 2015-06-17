@@ -2,6 +2,12 @@
 Changelog for package fetch_driver_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* update license to BSD
+* move fetch_driver_msgs into package folder
+* Contributors: Michael Ferguson
+
 0.5.1 (2015-06-04)
 ------------------
 * Add balancing_mode to charger message. Change mode to charging_mode.
