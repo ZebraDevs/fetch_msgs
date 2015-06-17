@@ -2,8 +2,8 @@
 Changelog for package fetch_auto_dock_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+0.5.2 (2015-06-16)
+------------------
 * release fetch_auto_dock_msgs package
 * Contributors: Michael Ferguson
 
