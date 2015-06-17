@@ -1,2 +1,3 @@
-# fetch_driver_msgs
-ROS Messages for fetch_drivers
+# fetch_msgs
+
+ROS Messages for Fetch Robots
