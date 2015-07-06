@@ -8,7 +8,9 @@
   <author>Michael Ferguson</author>
   <author>Derek King</author>
   <maintainer email="mferguson@fetchrobotics.com">Michael Ferguson</maintainer>
+
   <license>BSD</license>
+  <url>http://wiki.ros.org/fetch_driver_msgs</url>
 
   <buildtool_depend>catkin</buildtool_depend>
 

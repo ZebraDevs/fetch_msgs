@@ -9,6 +9,7 @@
   <maintainer email="mferguson@fetchrobotics.com">Michael Ferguson</maintainer>
 
   <license>BSD</license>
+  <url>http://wiki.ros.org/fetch_auto_dock_msgs</url>
 
   <buildtool_depend>catkin</buildtool_depend>
   <build_depend>actionlib</build_depend>
