@@ -2,6 +2,12 @@
 Changelog for package fetch_driver_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* add new message for GripperState
+* add url to package.xmls
+* Contributors: Michael Ferguson
+
 0.5.2 (2015-06-16)
 ------------------
 * update license to BSD
