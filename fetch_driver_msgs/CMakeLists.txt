@@ -12,6 +12,7 @@ add_message_files(
   FILES
     BoardState.msg
     JointState.msg
+    GripperState.msg
     MotorState.msg
     RobotState.msg
     ChargerState.msg
