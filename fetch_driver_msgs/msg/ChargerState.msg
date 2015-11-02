@@ -1,5 +1,9 @@
 uint8 state
 uint8 error
+# Charging mode is defined as:
+#  0 - float charge (last 10%)
+#  1 - charging
+#  2 - not charging
 uint8 charging_mode
 uint8 limit_cause
 uint8 balancing_mode
