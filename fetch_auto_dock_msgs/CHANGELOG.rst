@@ -2,6 +2,9 @@
 Changelog for package fetch_auto_dock_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+
 0.6.0 (2015-08-11)
 ------------------
 * add a dock_id field to dock action
