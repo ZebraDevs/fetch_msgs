@@ -2,8 +2,8 @@
 Changelog for package fetch_driver_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+0.6.1 (2016-01-05)
+------------------
 * add new action for disabling charging
 * add notes on charging_mode
 * Contributors: Michael Ferguson
