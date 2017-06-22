@@ -18,11 +18,12 @@ add_action_files(
 add_message_files(
   FILES
     BoardState.msg
+    ChargerState.msg
     JointState.msg
     GripperState.msg
     MotorState.msg
     RobotState.msg
-    ChargerState.msg
+    SafetyLaserState.msg
 )
 
 generate_messages(DEPENDENCIES actionlib_msgs power_msgs std_msgs)
