@@ -42,5 +42,5 @@ uint32 DEFINITELY_STOPPED = 1073741824   # 1<<30
 # Robot gyro has any type of error, can be used for ignoring
 # invalid gyro data even without understanding any specific
 # error types
-uint32 ANY_ERROR 2147483648   # 1<<31
+uint32 ANY_ERROR = 2147483648   # 1<<31
 
