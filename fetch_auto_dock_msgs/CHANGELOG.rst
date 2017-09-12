@@ -2,8 +2,8 @@
 Changelog for package fetch_auto_dock_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+1.0.0 (2017-09-12)
+------------------
 * Add LICENSE files.
 * Contributors: Mac Mason
 
