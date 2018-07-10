@@ -5,9 +5,11 @@
   <description>
     Messages for the fetch_drivers package
   </description>
+
   <author>Michael Ferguson</author>
   <author>Derek King</author>
-  <maintainer email="mferguson@fetchrobotics.com">Michael Ferguson</maintainer>
+  <maintainer email="rtoris@fetchrobotics.com">Russell Toris</maintainer>
+  <maintainer email="amoriarty@fetchrobotics.com">Alex Moriarty</maintainer>
 
   <license>BSD</license>
   <url>http://wiki.ros.org/fetch_driver_msgs</url>
