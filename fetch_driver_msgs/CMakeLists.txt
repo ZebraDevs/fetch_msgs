@@ -23,6 +23,7 @@ add_message_files(
     JointState.msg
     GripperState.msg
     Gyro.msg
+    LocalizationStatus.msg
     MotorState.msg
     RobotState.msg
     SafetyLaserState.msg
