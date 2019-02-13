@@ -2,6 +2,12 @@
 Changelog for package fetch_driver_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+1.1.1 (2019-02-13)
+------------------
+* [REP-140] package.xml format=2 (`#14 <https://github.com/fetchrobotics/fetch_msgs/issues/14>`_)
+  relates to issue `fetchrobotics/fetch_ros#83 <https://github.com/fetchrobotics/fetch_ros/issues/83>`_
+* Contributors: Alex Moriarty
+
 1.0.1 (2018-07-10)
 ------------------
 * updates ownership
