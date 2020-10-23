@@ -2,7 +2,7 @@
 # Primary message for a gripper
 #
 
-Header header
+std_msgs/Header header
 
 bool ready
 bool faulted

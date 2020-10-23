@@ -2,7 +2,7 @@
 # Primary message for a robot
 #
 
-Header header
+std_msgs/Header header
 
 bool ready
 bool faulted
