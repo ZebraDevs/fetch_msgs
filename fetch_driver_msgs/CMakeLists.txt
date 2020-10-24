@@ -25,7 +25,6 @@ add_message_files(
     Gyro.msg
     MotorState.msg
     RobotState.msg
-    SafetyLaserState.msg
 )
 
 generate_messages(
