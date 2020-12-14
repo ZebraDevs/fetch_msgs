@@ -24,3 +24,5 @@ float32 fan_speed
 
 float32 battery_capacity
 float32 battery_energy
+
+bool is_charger_detected
