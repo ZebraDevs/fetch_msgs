@@ -2,8 +2,8 @@
 Changelog for package fetch_auto_dock_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+1.2.0 (2021-02-21)
+------------------
 * Noetic updates and update maintainers
 * Contributors: Eric Relson
 

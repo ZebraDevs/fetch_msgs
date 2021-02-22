@@ -2,8 +2,8 @@
 Changelog for package fetch_driver_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+1.2.0 (2021-02-21)
+------------------
 * Noetic updates
 * Add bool field if charger is detected or not
 * Use std_msgs/Header for broader compatibility
