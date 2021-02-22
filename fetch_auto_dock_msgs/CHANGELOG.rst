@@ -2,6 +2,11 @@
 Changelog for package fetch_auto_dock_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* Noetic updates and update maintainers
+* Contributors: Eric Relson
+
 1.1.1 (2019-02-13)
 ------------------
 * [REP-140] package.xml format=2 (`#14 <https://github.com/fetchrobotics/fetch_msgs/issues/14>`_)

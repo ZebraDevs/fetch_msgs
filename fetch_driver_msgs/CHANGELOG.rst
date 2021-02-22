@@ -2,6 +2,19 @@
 Changelog for package fetch_driver_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* Noetic updates
+* Add bool field if charger is detected or not
+* Use std_msgs/Header for broader compatibility
+  Some ROS APIs may not accept the short version ("Header")
+  of the std_msgs/Header type.
+* updates maintainers
+  Listed multiple individual maintainers and also included the internal
+  mailing list to ensure the load is distributed in the event of build
+  failures.
+* Contributors: Alex Moriarty, Eric Relson, Russell Toris
+
 1.1.1 (2019-02-13)
 ------------------
 * [REP-140] package.xml format=2 (`#14 <https://github.com/fetchrobotics/fetch_msgs/issues/14>`_)
