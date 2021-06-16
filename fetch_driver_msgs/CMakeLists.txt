@@ -1,47 +1,39 @@
-cmake_minimum_required(VERSION 3.0.2)
+cmake_minimum_required(VERSION 3.5)
 project(fetch_driver_msgs)
 
-find_package(catkin REQUIRED
-  COMPONENTS
-    actionlib
-    actionlib_msgs
-    geometry_msgs
-    message_generation
-    power_msgs
-    std_msgs
-)
+# Default to C++14
+if(NOT CMAKE_CXX_STANDARD)
+  set(CMAKE_CXX_STANDARD 14)
+endif()
 
-add_action_files(
-  FILES
-    DisableCharging.action
-)
+if(CMAKE_COMPILER_IS_GNUCXX OR CMAKE_CXX_COMPILER_ID MATCHES "Clang")
+  add_compile_options(-Wall -Wextra -Wpedantic)
+endif()
 
-add_message_files(
-  FILES
-    BoardState.msg
-    ChargerState.msg
-    JointState.msg
-    GripperState.msg
-    Gyro.msg
-    MotorState.msg
-    RobotState.msg
-    SafetyLaserState.msg
-)
+# find dependencies
+find_package(ament_cmake REQUIRED)
+find_package(action_msgs REQUIRED)
+find_package(builtin_interfaces REQUIRED)
+find_package(geometry_msgs REQUIRED)
+find_package(power_msgs REQUIRED)
+find_package(rosidl_default_generators REQUIRED)
+find_package(std_msgs REQUIRED)
 
-generate_messages(
-  DEPENDENCIES
-    actionlib_msgs
-    geometry_msgs
-    power_msgs
-    std_msgs
-)
+rosidl_generate_interfaces(${PROJECT_NAME}
+  "action/DisableCharging.action"
+  "msg/BoardState.msg"
+  "msg/ChargerState.msg"
+  "msg/JointState.msg"
+  "msg/GripperState.msg"
+  "msg/Gyro.msg"
+  "msg/MotorState.msg"
+  "msg/RobotState.msg"
+  "msg/SafetyLaserState.msg"
+  DEPENDENCIES action_msgs builtin_interfaces geometry_msgs power_msgs std_msgs)
 
-catkin_package(
-  CATKIN_DEPENDS
-    actionlib
-    actionlib_msgs
-    geometry_msgs
-    message_runtime
-    power_msgs
-    std_msgs
-)
+if(BUILD_TESTING)
+  find_package(ament_lint_auto REQUIRED)
+  ament_lint_auto_find_test_dependencies()
+endif()
+
+ament_package()

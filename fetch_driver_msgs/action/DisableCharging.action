@@ -1,5 +1,5 @@
 # Disable charging for a specific amount of time
-duration disable_duration
+builtin_interfaces/Duration disable_duration
 ---
 # Returns true if charging was successfully disabled,
 # false if we are unable to disable charging
